@@ -8,7 +8,7 @@ O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferra
 
 ## Dependências
 
-- É necessário que o Docker esteja instalado e executando normalmente.
+- É necessário que o Docker e Docker-Compose estejam instalados e executando normalmente.
 - As portas 3000, 5532 e 9000 precisam estar livres. Caso necessário, pode-se alterar esses valores no arquivo `docker-compose.yml`
 
 ## Rodando o projeto
@@ -36,7 +36,7 @@ etc
 
 ## Documentação
 
-Disponível no diretório /docs. Elaborada com a ferramenta API Blueprint, conforme especificado.
+Disponível no diretório /docs. Elaborada utilizando a sintaxe do API Blueprint e compilada para HTML utilizando o parser Aglio, conforme especificado nos requisitos.
 
 ## Testes
 

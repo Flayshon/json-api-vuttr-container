@@ -8,7 +8,7 @@ FORMAT: 1A
 
 Resources related to tools in the API.
 
-## Tools Collection [/tools{?tag}]
+## Tools Collection [/api/tools{?tag}]
 
 + Parameters
     + tag: node (optional, string) - A tag that can be used to filter results
@@ -61,7 +61,7 @@ Resources related to tools in the API.
             }
         ]
 
-## Tool creation [/tools]
+## Tool creation [/api/tools]
 
 ### Create a new Tool [POST]
 
@@ -84,7 +84,7 @@ Resources related to tools in the API.
             "id":5
         }
 
-## Tool by id [/tools/{tool_id}]
+## Tool by id [/api/tools/{tool_id}]
 
 + Parameters
     + tool_id: 1 (required, number) - ID of the Tool as an integer
