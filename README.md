@@ -15,7 +15,7 @@ O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferra
 
 1) O repositório principal deve ser clonado com o parâmetro --recurse-modules, pois a pasta src tem seu próprio repositório
 
-git clone --recurse-submodules https://github.com/Flayshon/json-api-vuttr-container.git
+`git clone --recurse-submodules https://github.com/Flayshon/json-api-vuttr-container.git`
 
 2) No diretório /src, inclua o arquivo com as variáveis de ambiente utilizando o comando `cp .env.example .env`
 
