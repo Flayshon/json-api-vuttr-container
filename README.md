@@ -13,9 +13,13 @@ O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferra
 
 ## Rodando o projeto
 
-1) No diretório /src, inclua o arquivo com as variáveis de ambiente utilizando o comando `cp .env.example .env`
+1) O repositório principal deve ser clonado com o parâmetro --recurse-modules, pois a pasta src tem seu próprio repositório
 
-2) Na pasta raiz do projeto, execute os seguintes comandos
+git clone --recurse-submodules https://github.com/Flayshon/json-api-vuttr-container.git
+
+2) No diretório /src, inclua o arquivo com as variáveis de ambiente utilizando o comando `cp .env.example .env`
+
+3) Na pasta raiz do projeto, execute os seguintes comandos
 
 `docker-compose build`
 
