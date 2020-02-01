@@ -25,7 +25,14 @@ O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferra
 
 `docker-compose exec php php /var/www/html/artisan migrate`
 
-O servidor estará acessivel em http://localhost:3000
+O status do servidor estará acessivel em http://localhost:3000
+
+Os endpoints deverão ser testados usando o prefixo /api/. Por exemplo:
+
+http://localhost:3000/api/tools
+http://localhost:3000/api/tools/1
+
+etc
 
 ## Documentação
 
