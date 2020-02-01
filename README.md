@@ -8,7 +8,8 @@ O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferra
 
 ## Dependências
 
-É necessário que o Docker esteja instalado e executando normalmente.
+- É necessário que o Docker esteja instalado e executando normalmente.
+- As portas 3000, 5532 e 9000 precisam estar livres. Caso necessário, pode-se alterar esses valores no arquivo `docker-compose.yml`
 
 ## Rodando o projeto
 
@@ -23,3 +24,15 @@ O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferra
 `docker-compose up -d`
 
 `docker-compose exec php php /var/www/html/artisan migrate`
+
+O servidor estará acessivel em http://localhost:3000
+
+## Documentação
+
+Disponível no diretório /docs. Escrita com a ferramenta API Blueprint, conforme especificado.
+
+## Testes
+
+Os testes podem ser realizados rodando o executável do PHPUnit no container correspondente
+
+``docker-compose run --rm --user `id -u`:`id -g` php /var/www/html/vendor/bin/phpunit``
