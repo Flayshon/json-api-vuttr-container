@@ -29,7 +29,7 @@ O servidor estará acessivel em http://localhost:3000
 
 ## Documentação
 
-Disponível no diretório /docs. Escrita com a ferramenta API Blueprint, conforme especificado.
+Disponível no diretório /docs. Elaborada com a ferramenta API Blueprint, conforme especificado.
 
 ## Testes
 
