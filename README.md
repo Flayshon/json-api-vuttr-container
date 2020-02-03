@@ -2,6 +2,10 @@
 
 Os requisitos fornecidos podem ser revisados [aqui](https://www.notion.so/Dev-Back-End-04cfd92927a045f6914ab1e2c9002c02)
 
+## Vídeo de apresentação deste projeto
+
+[Apresentação gravada com a ferramenta Loom](https://www.loom.com/share/e21ef05296da4a879971f4686156c934)
+
 ## Informações básicas
 
 O projeto foi desenvolvido com o framework Laravel e utiliza o Docker como ferramenta de conteinerização. Os testes foram implementados utilizando a estrutura padrão do framework com PHPUnit.
