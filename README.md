@@ -40,8 +40,6 @@ Os endpoints deverão ser testados usando o prefixo /api/. Por exemplo:
 http://localhost:3000/api/tools
 http://localhost:3000/api/tools/1
 
-etc
-
 ## Documentação
 
 Disponível no diretório /docs. Elaborada utilizando a sintaxe do API Blueprint e compilada para HTML utilizando o parser Aglio, conforme especificado nos requisitos.
@@ -51,3 +49,7 @@ Disponível no diretório /docs. Elaborada utilizando a sintaxe do API Blueprint
 Os testes podem ser realizados rodando o executável do PHPUnit no container correspondente
 
 ``docker-compose run --rm --user `id -u`:`id -g` php /var/www/html/vendor/bin/phpunit``
+
+## Autenticação
+
+A autenticação via JWT está implementada no branch develop, utilizando o mesmo padrão de rotas do master
