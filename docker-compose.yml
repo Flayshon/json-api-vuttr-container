@@ -22,12 +22,14 @@ services:
     image: postgres
     container_name: postgres
     restart: unless-stopped
+    volumes: 
+      - ./pg-init-scripts:/docker-entrypoint-initdb.d
     ports:
       - "5532:5432"
     environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: post
-      POSTGRES_DB: vuttr
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_MULTIPLE_DATABASES=vuttr,vuttr_testing
     networks:
       - laravel
 

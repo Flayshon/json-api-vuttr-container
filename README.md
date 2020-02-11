@@ -48,6 +48,10 @@ Disponível no diretório /docs. Elaborada utilizando a sintaxe do API Blueprint
 
 ## Testes
 
-Os testes podem ser realizados rodando o executável do PHPUnit no container correspondente
+Para rodar os testes, primeiro é necessário rodar as migrations do banco de testes
+
+`docker-compose exec php php /var/www/html/artisan migrate --env=testing`
+
+Em seguida, basta executar o PHPUnit no container correspondente
 
 ``docker-compose run --rm --user `id -u`:`id -g` php /var/www/html/vendor/bin/phpunit``
