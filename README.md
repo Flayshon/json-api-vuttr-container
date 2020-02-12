@@ -1,6 +1,6 @@
 # Desafio Dev. Back-End Bossabox
 
-Neste projeto foi implementada uma API JSON de acordo com os requisitos listados [aqui](https://www.notion.so/Dev-Back-End-04cfd92927a045f6914ab1e2c9002c02).
+Implementação de uma API para a aplicação VUTTR (Very Useful Tools to Remember) de acordo com os requisitos listados [aqui](https://www.notion.so/Dev-Back-End-04cfd92927a045f6914ab1e2c9002c02).
 
 ## Vídeo de apresentação do projeto
 
